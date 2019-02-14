@@ -31,7 +31,7 @@ function Bio() {
               }}
             />
             <p>
-              Created by <strong>{author}</strong> using gatsby and graphql.
+              Created by <strong>{author}</strong> using Gatsby and GraphQL.
               {` `}
             </p>
           </div>
@@ -53,9 +53,6 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
-        social {
-          twitter
-        }
       }
     }
   }
