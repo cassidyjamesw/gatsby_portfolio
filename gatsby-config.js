@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `A simple Gatsby Blog`,
     author: `James Cassidy`,
-    description: `James Cassidy's blog`
+    description: `James Cassidy's blog`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`
   },
   plugins: [
     {
