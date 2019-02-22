@@ -11,8 +11,11 @@ date: "2019-02-22T22:12:03.284Z"
 ## AWS S3
 
 [Link to our S3 Routes](https://github.com/Lambda-School-Labs/labs10-big-files/blob/master/lambdafiles/routes/api/s3.js "S3 Routes")
+
 [S3 PR1](https://github.com/Lambda-School-Labs/labs10-big-files/pull/39)
+
 [S3 PR2](https://github.com/Lambda-School-Labs/labs10-big-files/pull/40)
+
 [S3 PR3](https://github.com/Lambda-School-Labs/labs10-big-files/pull/45)
 
 The biggest challenge this week was implementing S3 to upload and download files. S3 makes this process relatively simple, but as a file hosting site - this is a major piece of our project. We used a combination of the [AWS-SDK](https://aws.amazon.com/sdk-for-node-js/), [Multer](https://www.npmjs.com/package/multer), and [MulterS3](https://www.npmjs.com/package/multer-s3) to accomplish this. The AWS-SDK allows us to use node to communicate with our S3 buckets easily. Multer is a popular package for uploading files, and MulterS3 is specifically designed to upload files to S3.
@@ -42,7 +45,8 @@ This is our code for uploading files into S3:
 
 ## AWS SES
 
-[link to our AWS SES Routes](https://github.com/Lambda-School-Labs/labs10-big-files/blob/master/lambdafiles/routes/api/ses.js)
+[Link to our AWS SES Routes](https://github.com/Lambda-School-Labs/labs10-big-files/blob/master/lambdafiles/routes/api/ses.js)
+
 [SES PR](https://github.com/Lambda-School-Labs/labs10-big-files/pull/51)
 
 ![SES](SES.png)
