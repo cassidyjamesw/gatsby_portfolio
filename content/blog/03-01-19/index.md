@@ -48,7 +48,9 @@ This is our code for uploading files into S3 for paid users:
 [Link to our SendGrid Routes](https://github.com/Lambda-School-Labs/labs10-big-files/blob/master/lambdafiles/routes/api/sendgrid.js)
 
 [Sendgrid PR](https://github.com/Lambda-School-Labs/labs10-big-files/pull/98)
+
 [Sendgrid PR2](https://github.com/Lambda-School-Labs/labs10-big-files/pull/111)
+
 [Sendgrid PR3](https://github.com/Lambda-School-Labs/labs10-big-files/pull/112)
 
 [SendGrid](https://sendgrid.com/) is a very popular email delivery service. After being denied to send emails without prior verification from AWS SES, we choose to work with sendgrid and are quite pleased with the results. Sendgrid has an [NPM Package](https://www.npmjs.com/package/@sendgrid/mail) that allows us to easily interact with the mail endpoint of the (Sendgrid v3 API)[https://sendgrid.com/docs/API_Reference/api_v3.html].
